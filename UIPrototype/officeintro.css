@@ -1,0 +1,274 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background:rgb(248, 245, 244);
+}
+.root{
+    height:1800px;
+    width:1100px;
+    margin:0 auto;
+
+}
+
+
+.position{
+    height:30px;
+    width:500px;
+}
+
+.homeimg{
+    height:16px;
+    width:16px;
+    float:left;
+}
+
+.position{
+    color:#1295db;
+    margin-top:10px;
+    margin-left:5px;
+    margin-bottom:10px;
+}
+
+.detailposition{
+    color:#1295db;
+    margin-left:5px;
+}
+
+a{
+    color:#1295db;
+    text-decoration: none;
+}
+
+.topinfo{
+    height:400px;
+    width:1100px;
+    background:#1295db;
+}
+
+.newspart{
+    width: 300px;
+    float: right;
+    height: 400px;
+}
+
+.moreinfo{
+    float:right;
+    text-decoration: none;
+    font-size:16px;
+    margin-top:5px;
+    margin-right:5px;
+    color:#FFFFFF;
+}
+
+.roominfo{
+    font-size:20px;
+    color:#FFFFFF;
+    margin-top:5px;
+    margin-left:5px;
+}
+
+ul{
+    list-style:none;
+}
+
+.roominfolist li{
+    color:#FFFFFF;
+    margin-top:10px;
+    margin-left:5px;
+}
+
+.roominfolist li a{
+    color:#FFFFFF;
+    text-decoration: none;
+}
+
+.roomname{
+    background: #1295db;
+    width: 274px;
+    height: 60px;
+    margin-left:526px;
+    margin-top:-370px;
+    right: 380px;
+    _right: 400px;
+    top: 180px;
+    font-size: 30px;
+    line-height: 60px;
+    text-align: center;
+    color: #fff;
+    opacity: 0.8;
+}
+
+.detailinfopart{
+    height:1000px;
+    width:700px;
+    float:left;
+}
+
+.detailinfo{
+    height:180px;
+    width:700px;
+}
+
+.titlename{
+    line-height:48px;
+    border-bottom: 4px solid #1295db;
+}
+
+.title1 span{
+    color:#1295db;
+}
+
+
+.div1{
+    height:180px;
+    width:30px;
+
+    margin-left:10px;
+    float:left;
+    margin-top:20px;
+}
+
+.div1:hover{
+    background-color: #1295db9d;
+    color: #FFFFFF;
+}
+
+.div1 a{
+    margin-top:20px;
+}
+
+.rightpart{
+    width: 475px;
+    height: 160px;
+    overflow: hidden;
+    float: left;
+    background: #f5f5f5;
+    padding: 10px;
+    margin-right: 15px;
+    margin-top:20px;
+    margin-left:10px;
+    -webkit-transition: all ease .3s;
+    transition: all ease .3s;
+}
+
+.clear{
+    clear:both;
+}
+
+.doctorpicture{
+
+    width:100px;
+    margin-top:10px;
+    margin-bottom:30px;
+    margin-right: 20px;
+    float:left;
+}
+
+.doctorname{
+    font-size:18px;
+    color: #1295db;
+}
+
+.imgref1{
+    float:left;
+    position:relative;
+}
+
+p{
+    color: #1295db;
+    font-size: 16px;
+    line-height: 27px;
+}
+
+.introduction p{
+    color:black;
+}
+
+.rightpart span{
+    color:black;
+}
+
+.messagepart{
+    height:900px;
+    width:400px;
+    float:left;
+}
+
+.roomnames{
+    text-decoration: none;
+    background: #1295db;
+    display:block;
+    color: #FFFFFF;
+    width:700px;
+    float:left;
+    margin-top:10px;
+    height:60px;
+    text-align:center;
+}
+
+h2 a{
+    color:#FFFFFF;
+}
+
+h3 a{
+    float:right;
+    text-decoration: none;
+    color:#FFFFFF;
+    margin-top:5px;
+    margin-right:5px;
+}
+
+h3 span{
+    color:#FFFFFF;
+    margin-top:5px;
+    margin-left:5px;
+}
+
+.messagepart{
+    margin-top:10px;
+}
+
+.messagepart h3{
+    background:#1295db;
+    height:50px;
+    width:400px;
+}
+
+.specialdetail{
+
+    width:398px;
+    background:#FFFFFF;
+    border:1px solid black;
+
+}
+
+.specialdetail p{
+    margin:10px;
+}
+
+.way .specialdetail{
+    height:100px;
+    width:398px;
+    background:#FFFFFF;
+    border:1px solid black;
+}
+
+.way{
+    margin-top:20px;
+}
+
+
+.workinfo .specialdetail{
+    height:200px;
+    width:398px;
+    background:#FFFFFF;
+    border:1px solid black;
+}
+
+.workinfo .specialdetail span{
+    color: #1295db;
+    font-size:16px;
+}
