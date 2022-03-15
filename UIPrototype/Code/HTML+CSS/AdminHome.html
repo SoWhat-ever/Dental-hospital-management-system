@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>管理员主页</title>
+    <style>
+        @import url(AdminHome.css);
+    </style>
+</head>
+<body>
+    <section class = "layout-main">
+        <div class="header-wrap">
+            <div class="header">
+                <div class="logo">
+                    <img src="./pic/icon_home.png" width="50px" alt = "home">
+                    <h3>上海东川路牙科医院</h3>
+                </div>
+                <div class="login">
+                    <ul>
+                        <li>
+                            <button type="button">
+                                朗读辅助
+                            </button>
+                        </li>
+                        <li>
+                            <button type="button">
+                                登录
+                            </button>
+                        </li>
+                        <li>
+                            <button type="button">
+                                注册
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="main">
+
+
+            <div class = "admin">
+                <h1>医院工作管理</h1>
+                <div class = "doctor-admin">
+                    <div class = "admin-function1">
+                        <div class = "leftpart">
+                            <img src="./pic/外科医生.png" style="width: 90px; height:105px;padding-left: 10px;"
+                                 alt = "doctormanage">
+                            <p>
+                                医&nbsp;生&nbsp;管&nbsp;理&nbsp;以
+                                <br/>
+                                及&nbsp;信&nbsp;息&nbsp;设&nbsp;置
+                            </p>
+                        </div>
+                        <div class = "rightpart">
+                            <img src = "./pic/rightarrows.png" alt = "rightarrows"
+                                 height = "100px" width = "100%"/>
+                        </div>
+                    </div>
+
+                    <div class = "doctortable">
+                        <table>
+                            <tr>
+                                <td class = "admindoctor">
+                                    <img class = "admindoctorimg" src = "./pic/doc_1.jpg" alt = "医生管理"
+                                         height = "180px" width = "120px"/>
+                                    <div class = "doctorinfo">
+                                        <span>姓名：</span>
+                                        <span class = "name">XXX</span>
+                                        <br/><br/>
+                                        <span class = "职称">主任医师</span>
+                                        <br/><br/>
+                                        <span class = "科室">牙体牙髓科</span>
+                                    </div>
+                                    <div class = "change">
+                                        <button class = "changebutton">
+                                            修改信息
+                                        </button>
+                                    </div>
+                                </td>
+                                <td class = "admindoctor">
+                                    <img class = "admindoctorimg" src = "./pic/doc_1.jpg" alt = "医生管理"
+                                         height = "180px" width = "120px"/>
+                                    <div class = "doctorinfo">
+                                        <span>姓名：</span>
+                                        <span class = "name">XXX</span>
+                                        <br/><br/>
+                                        <span class = "职称">主任医师</span>
+                                        <br/><br/>
+                                        <span class = "科室">牙体牙髓科</span>
+                                    </div>
+                                    <div class = "change">
+                                        <button class = "changebutton">
+                                            修改信息
+                                        </button>
+                                    </div>
+                                </td>
+                                <td class = "admindoctor">
+                                    <img class = "admindoctorimg" src = "./pic/doc_1.jpg" alt = "医生管理"
+                                         height = "180px" width = "120px"/>
+                                    <div class = "doctorinfo">
+                                        <span>姓名：</span>
+                                        <span class = "name">XXX</span>
+                                        <br/><br/>
+                                        <span class = "职称">主任医师</span>
+                                        <br/><br/>
+                                        <span class = "科室">牙体牙髓科</span>
+                                    </div>
+                                    <div class = "change">
+                                        <button class = "changebutton">
+                                            修改信息
+                                        </button>
+                                    </div>
+                                </td>
+                                <td class = "admindoctor">
+                                    <img class = "admindoctorimg" src = "./pic/doc_1.jpg" alt = "医生管理"
+                                         height = "180px" width = "120px"/>
+                                    <div class = "doctorinfo">
+                                        <span>姓名：</span>
+                                        <span class = "name">XXX</span>
+                                        <br/><br/>
+                                        <span class = "职称">主任医师</span>
+                                        <br/><br/>
+                                        <span class = "科室">牙体牙髓科</span>
+                                    </div>
+                                    <div class = "change">
+                                        <button class = "changebutton">
+                                            修改信息
+                                        </button>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <div class = "doctor-admin1">
+                    <div class = "admin-function">
+                        <div class = "leftpart">
+                            <img src="./pic/科室.png" style="width: 90px; height:105px;padding-left: 10px;"
+                                 alt = "doctormanage">
+                            <p>
+                                科&nbsp;室&nbsp;管&nbsp;理&nbsp;以
+                                <br/>
+                                及&nbsp;信&nbsp;息&nbsp;设&nbsp;置
+                            </p>
+                        </div>
+                        <div class = "rightpart">
+                            <img src = "./pic/rightarrows.png" alt = "rightarrows"
+                                 height = "100px" width = "100%"/>
+                        </div>
+                    </div>
+                    <div class = "departmentadmin">
+                        <table>
+                            <tr class = "firstline">
+                                <td>科室类型</td>
+                                <td>当前出诊医生</td>
+                                <td>科室专长</td>
+                                <td>科室预约人数</td>
+                            </tr>
+                            <tr class = "infoline">
+                                <td class = "keshiname">
+                                    牙体牙髓科
+                                    <button type = "button" class = "changebutton">
+                                        修改信息
+                                    </button>
+                                </td>
+                                <td class = "currentdoctor">
+                                    医生1
+                                    <button type = "button" class = "changebutton">
+                                        修改信息
+                                    </button>
+                                </td>
+                                <td class = "keshiyoudian">
+                                    牙体牙髓根尖周疾病各种常见病及疑难病例诊治
+                                    <button type = "button" class = "changebutton">
+                                        修改信息
+                                    </button>
+                                </td>
+                                <td class = "yuyuerenshu">
+                                    20人
+                                    <button type = "button" class = "changebutton">
+                                        修改信息
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr class = "infoline">
+                                <td class = "keshiname">
+                                    牙周科
+                                    <button type = "button" class = "changebutton">
+                                        修改信息
+                                    </button>
+                                </td>
+                                <td class = "currentdoctor">
+                                    医生2
+                                    <button type = "button" class = "changebutton">
+                                        修改信息
+                                    </button>
+                                </td>
+                                <td class = "keshiyoudian">
+                                    急性和慢性牙龈炎、牙龈增生和各种类型的牙周炎的系统治疗
+                                    <button type = "button" class = "changebutton">
+                                        修改信息
+                                    </button>
+                                </td>
+                                <td class = "yuyuerenshu">
+                                    15人
+                                    <button type = "button" class = "changebutton">
+                                        修改信息
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr class = "infoline">
+                                <td class = "keshiname">
+                                    口腔修复科
+                                    <button type = "button" class = "changebutton">
+                                        修改信息
+                                    </button>
+                                </td>
+                                <td class = "currentdoctor">
+                                    医生3
+                                    <button type = "button" class = "changebutton">
+                                        修改信息
+                                    </button>
+                                </td>
+                                <td class = "keshiyoudian">
+                                    牙体缺损、牙列缺损、牙列缺失以及颌骨缺损的修复
+                                    <button type = "button" class = "changebutton">
+                                        修改信息
+                                    </button>
+                                </td>
+                                <td class = "yuyuerenshu">
+                                    25人
+                                    <button type = "button" class = "changebutton">
+                                        修改信息
+                                    </button>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <div class = "doctor-admin2">
+                    <div class = "admin-function">
+                        <div class = "leftpart">
+                            <img src="./pic/func_2.png" style="width: 90px; height:105px;padding-left: 10px;"
+                                 alt = "doctormanage">
+                            <p>
+                                诊&nbsp;号&nbsp;管&nbsp;理&nbsp;以
+                                <br/>
+                                及&nbsp;数&nbsp;量&nbsp;设&nbsp;置
+                            </p>
+                        </div>
+                        <div class = "rightpart">
+                            <img src = "./pic/rightarrows.png" alt = "rightarrows"
+                                 height = "100px" width = "100%"/>
+                        </div>
+                    </div>
+                    <div class = "departmentadmin">
+                        <table>
+                            <tr class = "firstline1">
+                                <td>科室类型</td>
+                                <td>发放诊号数</td>
+                                <td>科室预约人数</td>
+                            </tr>
+                            <tr class = "infoline1">
+                                <td class = "keshiname">
+                                    牙体牙髓科
+                                </td>
+                                <td class = "fafangzhenhao">
+                                    50人
+                                    <br/>
+                                    <button type = "button" class = "changebutton">
+                                        修改信息
+                                    </button>
+                                </td>
+                                <td class = "yuyuerenshu">
+                                    20人
+                                    <br/>
+                                    <button type = "button" class = "changebutton">
+                                        查看信息
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr class = "infoline1">
+                                <td class = "keshiname">
+                                    牙周科
+                                </td>
+                                <td class = "fafangzhenhao">
+                                    50人
+                                    <br/>
+                                    <button type = "button" class = "changebutton">
+                                        修改信息
+                                    </button>
+                                </td>
+                                <td class = "yuyuerenshu">
+                                    18人
+                                    <br/>
+                                    <button type = "button" class = "changebutton">
+                                        查看信息
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr class = "infoline1">
+                                <td class = "keshiname">
+                                    口腔修复科
+                                </td>
+                                <td class = "fafangzhenhao">
+                                    50人
+                                    <br/>
+                                    <button type = "button" class = "changebutton">
+                                        修改信息
+                                    </button>
+                                </td>
+                                <td class = "yuyuerenshu">
+                                    25人
+                                    <br/>
+                                    <button type = "button" class = "changebutton">
+                                        查看信息
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr class = "infoline1">
+                                <td class = "keshiname">
+                                    口腔修复科
+                                </td>
+                                <td class = "fafangzhenhao">
+                                    50人
+                                    <br/>
+                                    <button type = "button" class = "changebutton">
+                                        修改信息
+                                    </button>
+                                </td>
+                                <td class = "yuyuerenshu">
+                                    25人
+                                    <br/>
+                                    <button type = "button" class = "changebutton">
+                                        查看信息
+                                    </button>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <div class = "doctor-admin3">
+                    <div class = "admin-function">
+                        <div class = "leftpart">
+                            <img src="./pic/func_4.png" style="width: 90px; height:105px;padding-left: 10px;"
+                                 alt = "doctormanage">
+                            <p>
+                                医&nbsp;疗&nbsp;流&nbsp;程&nbsp;设
+                                <br/>
+                                置&nbsp;及&nbsp;消&nbsp;息&nbsp;管&nbsp;理
+                            </p>
+                        </div>
+                        <div class = "rightpart">
+                            <img src = "./pic/rightarrows.png" alt = "rightarrows"
+                                 height = "100px" width = "100%"/>
+                        </div>
+                    </div>
+
+                    <div class = "departmentadmin">
+                        <table>
+                            <tr class = "firstline1">
+                                <td>科室类型</td>
+                                <td>具体诊疗流程</td>
+                                <td>患者建议</td>
+                            </tr>
+                            <tr class = "infoline1">
+                                <td class = "keshiname">
+                                    牙体牙髓科
+                                </td>
+                                <td class = "zhenliaoliucheng">
+                                    门诊挂号->医院取号->排队就医->取药付款->医院复查
+                                    <br/>
+                                    <button type = "button" class = "changebutton">
+                                        修改信息
+                                    </button>
+                                </td>
+                                <td class = "yuyuerenshu">
+                                    1.我觉得应该添加"医院智能索引"功能<br/>
+                                    2.....
+                                    <br/>
+                                    <button type = "button" class = "changebutton">
+                                        更多...
+                                    </button>
+                                    <button type = "button" class = "changebutton">
+                                        封禁违规言论
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr class = "infoline1">
+                                <td class = "keshiname">
+                                    牙周科
+                                </td>
+                                <td class = "zhenliaoliucheng">
+                                    门诊挂号->医院取号->排队就医->取药付款->医院复查
+                                    <br/>
+                                    <button type = "button" class = "changebutton">
+                                        修改信息
+                                    </button>
+                                </td>
+                                <td class = "yuyuerenshu">
+                                    1.我觉得应该添加"医院智能索引"功能<br/>
+                                    2.....
+                                    <br/>
+                                    <button type = "button" class = "changebutton">
+                                        更多...
+                                    </button>
+                                    <button type = "button" class = "changebutton">
+                                        封禁违规言论
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr class = "infoline1">
+                                <td class = "keshiname">
+                                    牙体修复科
+                                </td>
+                                <td class = "zhenliaoliucheng">
+                                    门诊挂号->医院取号->排队就医->取药付款->医院复查
+                                    <br/>
+                                    <button type = "button" class = "changebutton">
+                                        修改信息
+                                    </button>
+                                </td>
+                                <td class = "yuyuerenshu">
+                                    1.我觉得应该添加"医院智能索引"功能<br/>
+                                    2.....
+                                    <br/>
+                                    <button type = "button" class = "changebutton">
+                                        更多...
+                                    </button>
+                                    <button type = "button" class = "changebutton">
+                                        封禁违规言论
+                                    </button>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</body>
+</html>
