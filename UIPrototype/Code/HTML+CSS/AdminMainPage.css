@@ -1,0 +1,166 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+ul{
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    display: inline;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+h3, h4{
+    display: inline;
+}
+
+button{
+    border: none;
+
+    outline: none;
+    height: 30px;
+
+    width: 100px;
+
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #6ab2da;
+    color: aliceblue;
+}
+
+button:hover{
+    background-color: #0d6696;
+    color: aliceblue;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.layout-main{
+    position: relative;
+    width: 100%;
+    background-color: rgb(248, 245, 244);
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+}
+
+.header-wrap{
+    height: 70px;
+    flex: 0 0 auto;
+    background-color: #1295db;
+}
+
+.broadcast{
+    margin: 0 auto;
+}
+
+.header{
+    box-sizing: border-box;
+    width: 1100px;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+.logo, .login ul, .login{
+    display: inline;
+
+}
+.logo{
+    height: 60px;
+}
+
+.logo h3{
+    font-size: 40px;
+    color: aliceblue;
+    padding-bottom: 10px;
+    margin-block-start:0;
+}
+
+.login{
+    margin-top: 15px;
+    float: right;
+}
+
+.position{
+    color:#6ab2da;
+    height:30px;
+    width:500px;
+    margin-top:10px;
+    margin-left:5px;
+    margin-bottom:10px;
+}
+
+.detailposition{
+    color:#6ab2da;
+    margin-left:5px;
+}
+
+.detailposition a{
+    text-decoration: none;
+    color:#6ab2da;
+}
+
+.main{
+    width:900px;
+    height:480px;
+    border-right:2px solid black;
+}
+
+.options{
+    width:360px;
+    height:150px;
+    background:#6ab2da;
+    float:left;
+    margin-left:80px;
+    margin-top:50px;
+    border:2px solid #61dafb;
+    border-radius: 15px;
+}
+
+.optionsimg{
+    width:80px;
+    height:100px;
+    margin-top:20px;
+    float:left;
+}
+
+.options p{
+    float:left;
+    font-size:27px;
+    color:white;
+    margin-top:50px;
+}
+
+.options p a{
+    text-decoration: none;
+    color:white;
+}
+
+.otherinfo{
+    width:360px;
+    height:480px;
+    background:#6ab2da;
+    margin-left:903px;
+    margin-top:-480px;
+}
+
+.otherinfo p a{
+    color:white;
+    text-decoration: underline;
+    margin-left:40px;
+}

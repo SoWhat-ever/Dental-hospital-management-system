@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DoctorAdmin</title>
+    <style>
+        @import url(DoctorAdmin.css);
+    </style>
+</head>
+<body>
+    <section class = "layout-main">
+        <div class="header-wrap">
+            <div class="header">
+                <div class="logo">
+                    <img src="./pic/icon_home.png" width="50px" alt = "home">
+                    <h3>上海东川路牙科医院</h3>
+                </div>
+                <div class="login">
+                    <ul>
+                        <li>
+                            <button type="button">
+                                朗读辅助
+                            </button>
+                        </li>
+                        <li>
+                            <button type="button">
+                                登录
+                            </button>
+                        </li>
+                        <li>
+                            <button type="button">
+                                注册
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class = "position">
+            <img class = "homeimg" alt = "home" src = "./home.png"/>
+            <span class = "position">
+                当前位置：&nbsp;
+            </span>
+            <span class = "detailposition">
+                <a href = "./Admin.html">管理员页面</a>
+                &nbsp;>>
+                <a href = "./DoctorAdmin.html">医生信息管理</a>
+                &nbsp;>>
+            </span>
+        </div>
+
+        <div class =  "doctormain">
+            <table>
+                <tr class = "doctorfirstline">
+                    <td>医生图片</td>
+                    <td>基本信息</td>
+                    <td>所属科室</td>
+                    <td>医生简介</td>
+                    <td>本周值班信息</td>
+                </tr>
+                <tr class = "doctorinfoline">
+                    <td>
+                        <img src = "./pic/doc_1.jpg" alt = "doctorimg" class = "doctorinfoimg"/>
+                        <button type = "button" class = "doctorchangebutton">
+                            修改图片
+                        </button>
+                    </td>
+                    <td class = "doctordetailinfo">
+                        <div>
+                            <span class = "infoname">姓名：</span>
+                            <span>doctor1</span><br/>
+                            <span class = "infoname">账号：</span>
+                            <span>DOCTOR1</span><br/>
+                            <span class = "infoname">密码：</span>
+                            <span>123456</span><br/>
+                            <span class = "infoname">电话号码：</span>
+                            <span>123 4567 8888</span><br/>
+                            <span class = "infoname">医生职称：</span>
+                            <span>主任医师</span>
+                        </div>
+                        <button type = "button" class = "doctorchangebutton1">
+                            修改信息
+                        </button>
+                    </td>
+                    <td class = "doctordetailinfo">
+                        <div>
+                            <span class = "infoname">科室名称：</span>
+                            <span>牙体牙髓科</span><br/>
+                            <span class = "infoname">所在楼层：</span>
+                            <span>住院部一楼</span><br/>
+                        </div>
+                        <button type = "button" class = "doctorchangebutton2">
+                            修改信息
+                        </button>
+                    </td>
+                    <td class = "doctordetailinfo">
+                        <div>
+                            <span class = "infoname">专长：</span>
+                            <span>牙体牙髓根尖周疾病各种常见病及疑难病例诊治</span><br/>
+                            <span class = "infoname">职务：</span>
+                            <span>牙体牙髓科主任;</span><br/>
+                            <span>X大学教授，博士生导师</span><br/>
+                        </div>
+                        <button type = "button" class = "doctorchangebutton3">
+                            修改信息
+                        </button>
+                    </td>
+                    <td class = "doctordetailinfo">
+                        <div>
+                            <span class = "infoname">时间：</span>
+                            <span>周一,10:00-11:00</span><br/>
+                            <span class = "infoname">位置：</span>
+                            <span>急诊部,2楼,211室</span><br/>
+                            <span class = "infoname">时间：</span>
+                            <span>周三,10:00-11:00</span><br/>
+                            <span class = "infoname">位置：</span>
+                            <span>急诊部,1楼,102室</span><br/>
+                        </div>
+                        <button type = "button" class = "doctorchangebutton4">
+                            修改信息
+                        </button>
+                    </td>
+                </tr>
+
+                <tr class = "doctorinfoline">
+                    <td>
+                        <img src = "./pic/doc_2.jpg" alt = "doctorimg" class = "doctorinfoimg"/>
+                        <button type = "button" class = "doctorchangebutton">
+                            修改图片
+                        </button>
+                    </td>
+                    <td class = "doctordetailinfo">
+                        <div>
+                            <span class = "infoname">姓名：</span>
+                            <span>doctor2</span><br/>
+                            <span class = "infoname">账号：</span>
+                            <span>DOCTOR2</span><br/>
+                            <span class = "infoname">密码：</span>
+                            <span>123456</span><br/>
+                            <span class = "infoname">电话号码：</span>
+                            <span>145 3457 9999</span><br/>
+                            <span class = "infoname">医生职称：</span>
+                            <span>副主任医师</span>
+                        </div>
+                        <button type = "button" class = "doctorchangebutton1">
+                            修改信息
+                        </button>
+                    </td>
+                    <td class = "doctordetailinfo">
+                        <div>
+                            <span class = "infoname">科室名称：</span>
+                            <span>牙体牙髓科</span><br/>
+                            <span class = "infoname">所在楼层：</span>
+                            <span>住院部一楼</span><br/>
+                        </div>
+                        <button type = "button" class = "doctorchangebutton2">
+                            修改信息
+                        </button>
+                    </td>
+                    <td class = "doctordetailinfo">
+                        <div>
+                            <span class = "infoname">专长：</span>
+                            <span>牙体牙髓根尖周疾病各种常见病及疑难病例诊治</span><br/>
+                            <span class = "infoname">职务：</span>
+                            <span>牙体牙髓科副主任;</span><br/>
+                            <span>X大学教授，博士生导师</span><br/>
+                        </div>
+                        <button type = "button" class = "doctorchangebutton3">
+                            修改信息
+                        </button>
+                    </td>
+                    <td class = "doctordetailinfo">
+                        <div>
+                            <span class = "infoname">时间：</span>
+                            <span>周二,8:00-9:00</span><br/>
+                            <span class = "infoname">位置：</span>
+                            <span>急诊部,2楼,211室</span><br/>
+                            <span class = "infoname">时间：</span>
+                            <span>周四,8:00-9:00</span><br/>
+                            <span class = "infoname">位置：</span>
+                            <span>急诊部,1楼,102室</span><br/>
+                        </div>
+                        <button type = "button" class = "doctorchangebutton4">
+                            修改信息
+                        </button>
+                    </td>
+                </tr>
+
+                <tr class = "doctorinfoline">
+                    <td>
+                        <img src = "./pic/doc_3.jpg" alt = "doctorimg" class = "doctorinfoimg"/>
+                        <button type = "button" class = "doctorchangebutton">
+                            修改图片
+                        </button>
+                    </td>
+                    <td class = "doctordetailinfo">
+                        <div>
+                            <span class = "infoname">姓名：</span>
+                            <span>doctor3</span><br/>
+                            <span class = "infoname">账号：</span>
+                            <span>DOCTOR3</span><br/>
+                            <span class = "infoname">密码：</span>
+                            <span>123456</span><br/>
+                            <span class = "infoname">电话号码：</span>
+                            <span>122 3333 5555</span><br/>
+                            <span class = "infoname">医生职称：</span>
+                            <span>主治医师</span>
+                        </div>
+                        <button type = "button" class = "doctorchangebutton1">
+                            修改信息
+                        </button>
+                    </td>
+                    <td class = "doctordetailinfo">
+                        <div>
+                            <span class = "infoname">科室名称：</span>
+                            <span>牙体牙髓科</span><br/>
+                            <span class = "infoname">所在楼层：</span>
+                            <span>住院部一楼</span><br/>
+                        </div>
+                        <button type = "button" class = "doctorchangebutton2">
+                            修改信息
+                        </button>
+                    </td>
+                    <td class = "doctordetailinfo">
+                        <div>
+                            <span class = "infoname">专长：</span>
+                            <span>牙体牙髓根尖周疾病各种常见病及疑难病例诊治</span><br/>
+                            <span class = "infoname">职务：</span>
+                            <span>牙体牙髓科主治医师;</span><br/>
+                            <span>X大学副教授</span><br/>
+                        </div>
+                        <button type = "button" class = "doctorchangebutton3">
+                            修改信息
+                        </button>
+                    </td>
+                    <td class = "doctordetailinfo">
+                        <div>
+                            <span class = "infoname">时间：</span>
+                            <span>周二,9:00-10:00</span><br/>
+                            <span class = "infoname">位置：</span>
+                            <span>急诊部,2楼,211室</span><br/>
+                            <span class = "infoname">时间：</span>
+                            <span>周五,9:00-10:00</span><br/>
+                            <span class = "infoname">位置：</span>
+                            <span>急诊部,1楼,102室</span><br/>
+                        </div>
+                        <button type = "button" class = "doctorchangebutton4">
+                            修改信息
+                        </button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+</body>
+</html>

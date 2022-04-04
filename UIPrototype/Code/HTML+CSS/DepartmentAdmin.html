@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DepartmentAdmin</title>
+    <style>
+        @import url(DepartmentAdmin.css);
+    </style>
+</head>
+<body>
+    <section class = "layout-main">
+        <div class="header-wrap">
+            <div class="header">
+                <div class="logo">
+                    <img src="./pic/icon_home.png" width="50px" alt = "home">
+                    <h3>上海东川路牙科医院</h3>
+                </div>
+                <div class="login">
+                    <ul>
+                        <li>
+                          <button type="button">
+                          朗读辅助
+                          </button>
+                        </li>
+                        <li>
+                          <button type="button">
+                          登录
+                          </button>
+                        </li>
+                        <li>
+                          <button type="button">
+                          注册
+                          </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class = "position">
+            <img class = "homeimg" alt = "home" src = "./home.png"/>
+            <span class = "position">
+                当前位置：&nbsp;
+            </span>
+            <span class = "detailposition">
+                <a href = "./Admin.html">管理员页面</a>
+                &nbsp;>>
+                <a href = "./DepartmentAdmin.html">科室信息管理</a>
+                &nbsp;>>
+            </span>
+        </div>
+
+        <div class = "departmain">
+            <table>
+                <tr class = "departmentfirstline">
+                    <td>科室名称</td>
+                    <td>科室专长</td>
+                    <td>当日出诊医生</td>
+                    <td>当日预约信息</td>
+                </tr>
+                <tr class = "departmentinfoline">
+                    <td>
+                        <div class = "departmentname">
+                            <span class = "infoname">牙体牙髓科</span>
+                        </div>
+                        <button type = "button" class = "departmentchangebutton">
+                            修改名称
+                        </button>
+                    </td>
+                    <td>
+                        <div>
+                            <span>
+                                科室具有先进的牙体牙髓根尖周疾病的诊疗技术，擅长牙体牙髓根尖周疾病各种常见病及疑难病例的诊治，
+                                聚焦显微根管治疗、根尖手术及牙体美学修复。
+                            </span>
+                        </div>
+                        <button type = "button" class = "departmentchangebutton1">
+                            修改信息
+                        </button>
+                    </td>
+                    <td>
+                        <div>
+                            <span class = "infoname">姓名：</span>
+                            <span>doctor2</span><br/>
+                            <span class = "infoname">位置：</span>
+                            <span>急诊部,2楼,211室</span><br/>
+                            <span class = "infoname">时间：</span>
+                            <span>上午9:00-上午10:00</span><br/>
+                            <span class = "infoname">姓名：</span>
+                            <span>doctor1</span><br/>
+                            <span class = "infoname">位置：</span>
+                            <span>急诊部,1楼,103室</span><br/>
+                            <span class = "infoname">时间：</span>
+                            <span>上午10:00-上午11:00</span><br/>
+                        </div>
+                        <button type = "button" class = "departmentchangebutton2">
+                            修改信息
+                        </button>
+                    </td>
+                    <td>
+                        <div>
+                            <span class = "infoname">已预约人数：</span>
+                            <span>20人</span><br/><br/>
+                            <button type = "button" class = "departmentchangebutton2">
+                                修改人数限制
+                            </button><br/>
+                            <span class = "infoname"> 预约患者信息：</span><br/><br/>
+                            <button type = "button" class = "departmentchangebutton2">
+                                查看预约信息
+                            </button>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class = "departmentinfoline">
+                    <td>
+                        <div class = "departmentname">
+                            <span class = "infoname">牙周科</span>
+                        </div>
+                        <button type = "button" class = "departmentchangebutton">
+                            修改名称
+                        </button>
+                    </td>
+                    <td>
+                        <div>
+                            <span>
+                                急性和慢性牙龈炎、牙龈增生和各种类型的牙周炎的系统治疗。并可以
+                                开展各种牙周手术，包括牙龈切除术、牙周翻瓣术、牙冠延长术以及牙周组织再生术等。
+                            </span>
+                        </div>
+                        <button type = "button" class = "departmentchangebutton1">
+                            修改信息
+                        </button>
+                    </td>
+                    <td>
+                        <div>
+                            <span class = "infoname">姓名：</span>
+                            <span>doctor3</span><br/>
+                            <span class = "infoname">位置：</span>
+                            <span>急诊部,1楼,111室</span><br/>
+                            <span class = "infoname">时间：</span>
+                            <span>上午9:00-上午10:00</span><br/>
+                            <span class = "infoname">姓名：</span>
+                            <span>doctor4</span><br/>
+                            <span class = "infoname">位置：</span>
+                            <span>急诊部,3楼,304室</span><br/>
+                            <span class = "infoname">时间：</span>
+                            <span>上午10:00-上午11:00</span><br/>
+                        </div>
+                        <button type = "button" class = "departmentchangebutton2">
+                            修改信息
+                        </button>
+                    </td>
+                    <td>
+                        <div>
+                            <span class = "infoname">已预约人数：</span>
+                            <span>30人</span><br/><br/>
+                            <button type = "button" class = "departmentchangebutton2">
+                                修改人数限制
+                            </button><br/>
+                            <span class = "infoname"> 预约患者信息：</span><br/><br/>
+                            <button type = "button" class = "departmentchangebutton2">
+                                查看预约信息
+                            </button>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class = "departmentinfoline">
+                    <td>
+                        <div class = "departmentname">
+                            <span class = "infoname">修复科</span>
+                        </div>
+                        <button type = "button" class = "departmentchangebutton">
+                            修改名称
+                        </button>
+                    </td>
+                    <td>
+                        <div>
+                            <span>
+                                在牙体缺损、牙列缺损、牙列缺失以及颌骨缺损的修复方面积累了丰富的临床经验。并
+                                在多个烤瓷冠和烤瓷长桥的修复方面积累了丰富的经验。
+                                经修复后的患牙外形逼真、美观耐用。
+                            </span>
+                        </div>
+                        <button type = "button" class = "departmentchangebutton1">
+                            修改信息
+                        </button>
+                    </td>
+                    <td>
+                        <div>
+                            <span class = "infoname">姓名：</span>
+                            <span>doctor3</span><br/>
+                            <span class = "infoname">位置：</span>
+                            <span>急诊部,1楼,111室</span><br/>
+                            <span class = "infoname">时间：</span>
+                            <span>上午9:00-上午10:00</span><br/>
+                            <span class = "infoname">姓名：</span>
+                            <span>doctor4</span><br/>
+                            <span class = "infoname">位置：</span>
+                            <span>急诊部,3楼,304室</span><br/>
+                            <span class = "infoname">时间：</span>
+                            <span>上午10:00-上午11:00</span><br/>
+                        </div>
+                        <button type = "button" class = "departmentchangebutton2">
+                            修改信息
+                        </button>
+                    </td>
+                    <td>
+                        <div>
+                            <span class = "infoname">已预约人数：</span>
+                            <span>10人</span><br/><br/>
+                            <button type = "button" class = "departmentchangebutton2">
+                                修改人数限制
+                            </button><br/>
+                            <span class = "infoname"> 预约患者信息：</span><br/><br/>
+                            <button type = "button" class = "departmentchangebutton2">
+                                查看预约信息
+                            </button>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+</body>
+</html>
