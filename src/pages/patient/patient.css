@@ -1,0 +1,18 @@
+#sider{
+  /*background-color: skyblue;*/
+  width: 25%;
+  padding-top: 25px;
+  padding-right: 0;
+  /*margin-right: 0;*/
+  padding-left: 40px;
+  min-height: 700px;
+  float: left;
+}
+#info{
+  float: right;
+  width: 75%;
+  background-color: ghostwhite;
+  margin-top: 25px;
+  padding-left: 0;
+}
+

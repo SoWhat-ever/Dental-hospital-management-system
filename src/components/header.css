@@ -1,0 +1,74 @@
+#logo{
+  width: 10%;
+}
+#name{
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Comic Sans MS', cursive;
+}
+#Logo{
+  width: auto;
+  margin-left: 30px;
+}
+#myHeader{
+  position: fixed;
+  width: 100%;
+  background-color: #0093E9;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+  z-index: 99;
+}
+.loginRegister{
+  margin-top: 20px;
+  float: right;
+  margin-right: 20px;
+  width: 90px;
+  height: 35px;
+  line-height: 35px;
+  background-color: lightskyblue;
+  border: 1px solid #1e7db9;
+  color: black;
+  font-size: 15px;
+  border-radius: 5px;
+}
+.loginRegister:hover{
+  background-color: #40a9ff;
+  color: white;
+}
+#fuZhu{
+  width: 110px;
+}
+#myUl>li{
+  float: left;
+  margin-left: 40px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 20px;
+  color: dimgray;
+  list-style: none;
+}
+#headBar li:hover{
+  color: white;
+}
+#drop{
+  display: none;
+  width: 100px;
+  height: auto;
+}
+#drop > li{
+  width: 100px;
+  height: auto;
+  padding-left: 20px;
+  background-color: #bae7ff;
+  color: #40a9ff;
+  list-style-type: none;
+}
+#headBar > ul > li:nth-child(1):hover #drop{
+  display: block;
+}
+.Div{
+  color: dimgray;
+}
+.Div:hover{
+  color: white;
+}

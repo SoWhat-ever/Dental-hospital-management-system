@@ -1,0 +1,26 @@
+.reports{
+  font-size: 18px;
+  margin-bottom: 30px;
+  border-bottom: 1px dashed black;
+}
+.reports a{
+  color: black;
+}
+.reports a:hover{
+  color: #40a9ff;
+}
+#myHr{
+  width: 90%;
+  height: 1px;
+  border: none;
+  border-top: 1px dashed #0066cc;;
+}
+.time{
+  float: right;
+}
+#findInfo{
+  color: black;
+}
+#findInfo:hover{
+  color: #40a9ff;
+}
